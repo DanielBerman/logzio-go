@@ -1,6 +1,6 @@
 # Logzio Golang API client
 
-Sends logs to [logz.io](https://logz.io) over HTTP. It is a low level lib that can to be integrated with other logging libs.
+Sends logs to [Logz.io](https://logz.io) over HTTP. It is a low level library that can be integrated with other logging libraries.
 
 [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report][report-img]][report]
 
@@ -69,8 +69,8 @@ func main() {
 
 ## Disk queue
 
-Logzio go client uses [goleveldb](https://github.com/syndtr/goleveldb) and [goqueue](github.com/beeker1121/goque) as a persistent storage.
-Every 5 seconds logs are sent to logz.io (if any are available)
+Logz.io go client uses [goleveldb](https://github.com/syndtr/goleveldb) and [goqueue](github.com/beeker1121/goque) as a persistent storage.
+Every 5 seconds logs are sent to Logz.io (if any are available)
 
 ## Tests
 
