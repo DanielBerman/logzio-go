@@ -1,4 +1,4 @@
-# Logzio Golang API client
+# Logz.io Golang API client
 
 Sends logs to [Logz.io](https://logz.io) over HTTP. It is a low level library that can be integrated with other logging libraries.
 
